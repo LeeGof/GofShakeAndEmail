@@ -26,6 +26,24 @@
 {
     NSLog(@"end");
     
+    [self cutterViewToDocument];
+}
+
+#pragma mark - 截屏
+
+- (void)cutterViewToDocument
+{
+    UIWindow *screenWindow = [[UIApplication sharedApplication] keyWindow];
+    
+    UIGraphicsBeginImageContext(screenWindow.frame.size);
+    [screenWindow.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *screenShot = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    NSData *screenShotPNG = UIImagePNGRepresentation(screenShot);
+    NSError *error = nil;
+    [screenShotPNG writeToFile:[[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] stringByAppendingPathComponent:@"error.png"] options:NSAtomicWrite error:&error];
+    
     Class mailClass = (NSClassFromString(@"MFMailComposeViewController"));
     
     if (mailClass !=nil)
@@ -46,22 +64,6 @@
     }
 }
 
-#pragma mark - 截屏
-
-- (void)cutterViewToDocument
-{
-    UIWindow *screenWindow = [[UIApplication sharedApplication] keyWindow];
-    
-    UIGraphicsBeginImageContext(screenWindow.frame.size);
-    [screenWindow.layer renderInContext:UIGraphicsGetCurrentContext()];
-    UIImage *screenShot = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    NSData *screenShotPNG = UIImagePNGRepresentation(screenShot);
-    NSError *error = nil;
-    [screenShotPNG writeToFile:[[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] stringByAppendingPathComponent:@"error.png"] options:NSAtomicWrite error:&error];
-}
-
 #pragma mark - 邮件发送
 
 - (void)displayMailComposerSheet
@@ -74,8 +76,11 @@
     [picker setSubject:@"Bug反馈"];
     // 添加收件人
     NSArray *toRecipients = [NSArray arrayWithObject:@"ligfufida@gmail.com"];
-    
     [picker setToRecipients:toRecipients];
+    //添加截图
+    NSData *myData = [NSData dataWithContentsOfFile:[[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] stringByAppendingPathComponent:@"error.png"]];
+    [picker addAttachmentData:myData mimeType:@"image/jpeg" fileName:@"error.png"];
+    
     NSString *emailBody = @"Bug描述";
     
     [picker setMessageBody:emailBody isHTML:YES];
