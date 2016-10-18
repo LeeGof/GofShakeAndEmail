@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1E98355D1DB628BC0027E0BD /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E98355C1DB628BC0027E0BD /* BViewController.m */; };
-		1ECC20DC1DB4FF4000B3B30F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC20DB1DB4FF4000B3B30F /* main.m */; };
+		1E98355E1DB641080027E0BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC21011DB5002300B3B30F /* AppDelegate.m */; };
+		1E9835601DB641CA0027E0BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E98355F1DB641CA0027E0BD /* main.m */; };
 		1ECC20F51DB4FF4000B3B30F /* GofShakeAndEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC20F41DB4FF4000B3B30F /* GofShakeAndEmailTests.m */; };
-		1ECC210B1DB5002300B3B30F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC21011DB5002300B3B30F /* AppDelegate.m */; };
 		1ECC210C1DB5002300B3B30F /* GofViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC21051DB5002300B3B30F /* GofViewController.m */; };
 		1ECC210D1DB5002300B3B30F /* GofViewCreateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC21071DB5002300B3B30F /* GofViewCreateFactory.m */; };
 		1ECC210E1DB5002300B3B30F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ECC21091DB5002300B3B30F /* Assets.xcassets */; };
@@ -32,8 +32,8 @@
 /* Begin PBXFileReference section */
 		1E98355B1DB628BC0027E0BD /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
 		1E98355C1DB628BC0027E0BD /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		1E98355F1DB641CA0027E0BD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1ECC20D71DB4FF4000B3B30F /* GofShakeAndEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GofShakeAndEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ECC20DB1DB4FF4000B3B30F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1ECC20EB1DB4FF4000B3B30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ECC20F01DB4FF4000B3B30F /* GofShakeAndEmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GofShakeAndEmailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECC20F41DB4FF4000B3B30F /* GofShakeAndEmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GofShakeAndEmailTests.m; sourceTree = "<group>"; };
@@ -98,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				1ECC20EB1DB4FF4000B3B30F /* Info.plist */,
-				1ECC20DB1DB4FF4000B3B30F /* main.m */,
 			);
 			name = "Supporting Files";
 			path = GofShakeAndEmail;
@@ -116,6 +115,7 @@
 		1ECC20FF1DB5002300B3B30F /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				1E98355F1DB641CA0027E0BD /* main.m */,
 				1ECC21001DB5002300B3B30F /* AppDelegate.h */,
 				1ECC21011DB5002300B3B30F /* AppDelegate.m */,
 			);
@@ -270,13 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E98355E1DB641080027E0BD /* AppDelegate.m in Sources */,
 				1E98355D1DB628BC0027E0BD /* BViewController.m in Sources */,
 				1ECC210D1DB5002300B3B30F /* GofViewCreateFactory.m in Sources */,
 				1ECC21111DB5004700B3B30F /* AViewController.m in Sources */,
-				1ECC210B1DB5002300B3B30F /* AppDelegate.m in Sources */,
 				1ECC21191DB5013500B3B30F /* UIViewController+GofShakeAndEmail.m in Sources */,
+				1E9835601DB641CA0027E0BD /* main.m in Sources */,
 				1ECC210C1DB5002300B3B30F /* GofViewController.m in Sources */,
-				1ECC20DC1DB4FF4000B3B30F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
