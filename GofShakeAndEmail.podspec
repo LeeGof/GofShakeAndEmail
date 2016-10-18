@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
                        一个使用OC实现的摇一摇截图邮件反馈BUG的库.
                        DESC
   s.homepage         = "https://github.com/wangzz/WZMarqueeView"
-  s.license          = 'MIT'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "LeeGof" => "ligfufida@gmail.com" }
   s.source           = { :git => "https://github.com/LeeGof/GofShakeAndEmail.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/NAME'
