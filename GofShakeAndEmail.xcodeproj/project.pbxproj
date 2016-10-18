@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E98355D1DB628BC0027E0BD /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E98355C1DB628BC0027E0BD /* BViewController.m */; };
+		1ECC20DC1DB4FF4000B3B30F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC20DB1DB4FF4000B3B30F /* main.m */; };
+		1ECC20F51DB4FF4000B3B30F /* GofShakeAndEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC20F41DB4FF4000B3B30F /* GofShakeAndEmailTests.m */; };
+		1ECC210B1DB5002300B3B30F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC21011DB5002300B3B30F /* AppDelegate.m */; };
+		1ECC210C1DB5002300B3B30F /* GofViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC21051DB5002300B3B30F /* GofViewController.m */; };
+		1ECC210D1DB5002300B3B30F /* GofViewCreateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC21071DB5002300B3B30F /* GofViewCreateFactory.m */; };
+		1ECC210E1DB5002300B3B30F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ECC21091DB5002300B3B30F /* Assets.xcassets */; };
+		1ECC21111DB5004700B3B30F /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC21101DB5004700B3B30F /* AViewController.m */; };
+		1ECC21151DB500CC00B3B30F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECC21141DB500CC00B3B30F /* Default-568h@2x.png */; };
+		1ECC21191DB5013500B3B30F /* UIViewController+GofShakeAndEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC21181DB5013500B3B30F /* UIViewController+GofShakeAndEmail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ECC20F11DB4FF4000B3B30F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ECC20CF1DB4FF4000B3B30F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ECC20D61DB4FF4000B3B30F;
+			remoteInfo = GofShakeAndEmail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E98355B1DB628BC0027E0BD /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		1E98355C1DB628BC0027E0BD /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		1ECC20D71DB4FF4000B3B30F /* GofShakeAndEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GofShakeAndEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ECC20DB1DB4FF4000B3B30F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1ECC20EB1DB4FF4000B3B30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ECC20F01DB4FF4000B3B30F /* GofShakeAndEmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GofShakeAndEmailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ECC20F41DB4FF4000B3B30F /* GofShakeAndEmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GofShakeAndEmailTests.m; sourceTree = "<group>"; };
+		1ECC20F61DB4FF4000B3B30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ECC21001DB5002300B3B30F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1ECC21011DB5002300B3B30F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1ECC21031DB5002300B3B30F /* GofConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GofConstant.h; sourceTree = "<group>"; };
+		1ECC21041DB5002300B3B30F /* GofViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GofViewController.h; sourceTree = "<group>"; };
+		1ECC21051DB5002300B3B30F /* GofViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GofViewController.m; sourceTree = "<group>"; };
+		1ECC21061DB5002300B3B30F /* GofViewCreateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GofViewCreateFactory.h; sourceTree = "<group>"; };
+		1ECC21071DB5002300B3B30F /* GofViewCreateFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GofViewCreateFactory.m; sourceTree = "<group>"; };
+		1ECC21091DB5002300B3B30F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ECC210F1DB5004700B3B30F /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		1ECC21101DB5004700B3B30F /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		1ECC21141DB500CC00B3B30F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1ECC21171DB5013500B3B30F /* UIViewController+GofShakeAndEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GofShakeAndEmail.h"; sourceTree = "<group>"; };
+		1ECC21181DB5013500B3B30F /* UIViewController+GofShakeAndEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GofShakeAndEmail.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ECC20D41DB4FF4000B3B30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ECC20ED1DB4FF4000B3B30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ECC20CE1DB4FF4000B3B30F = {
+			isa = PBXGroup;
+			children = (
+				1ECC21161DB5011E00B3B30F /* GofShakeAndEmail */,
+				1ECC20FF1DB5002300B3B30F /* AppDelegate */,
+				1ECC210A1DB5002300B3B30F /* ViewController */,
+				1ECC21021DB5002300B3B30F /* BaseClass */,
+				1ECC21081DB5002300B3B30F /* Resource */,
+				1ECC20DA1DB4FF4000B3B30F /* Supporting Files */,
+				1ECC20F31DB4FF4000B3B30F /* GofShakeAndEmailTests */,
+				1ECC20D81DB4FF4000B3B30F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ECC20D81DB4FF4000B3B30F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ECC20D71DB4FF4000B3B30F /* GofShakeAndEmail.app */,
+				1ECC20F01DB4FF4000B3B30F /* GofShakeAndEmailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ECC20DA1DB4FF4000B3B30F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ECC20EB1DB4FF4000B3B30F /* Info.plist */,
+				1ECC20DB1DB4FF4000B3B30F /* main.m */,
+			);
+			name = "Supporting Files";
+			path = GofShakeAndEmail;
+			sourceTree = "<group>";
+		};
+		1ECC20F31DB4FF4000B3B30F /* GofShakeAndEmailTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ECC20F41DB4FF4000B3B30F /* GofShakeAndEmailTests.m */,
+				1ECC20F61DB4FF4000B3B30F /* Info.plist */,
+			);
+			path = GofShakeAndEmailTests;
+			sourceTree = "<group>";
+		};
+		1ECC20FF1DB5002300B3B30F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1ECC21001DB5002300B3B30F /* AppDelegate.h */,
+				1ECC21011DB5002300B3B30F /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			path = GofShakeAndEmail/AppDelegate;
+			sourceTree = "<group>";
+		};
+		1ECC21021DB5002300B3B30F /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				1ECC21031DB5002300B3B30F /* GofConstant.h */,
+				1ECC21041DB5002300B3B30F /* GofViewController.h */,
+				1ECC21051DB5002300B3B30F /* GofViewController.m */,
+				1ECC21061DB5002300B3B30F /* GofViewCreateFactory.h */,
+				1ECC21071DB5002300B3B30F /* GofViewCreateFactory.m */,
+			);
+			name = BaseClass;
+			path = GofShakeAndEmail/BaseClass;
+			sourceTree = "<group>";
+		};
+		1ECC21081DB5002300B3B30F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1ECC21141DB500CC00B3B30F /* Default-568h@2x.png */,
+				1ECC21091DB5002300B3B30F /* Assets.xcassets */,
+			);
+			name = Resource;
+			path = GofShakeAndEmail/Resource;
+			sourceTree = "<group>";
+		};
+		1ECC210A1DB5002300B3B30F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1ECC210F1DB5004700B3B30F /* AViewController.h */,
+				1ECC21101DB5004700B3B30F /* AViewController.m */,
+				1E98355B1DB628BC0027E0BD /* BViewController.h */,
+				1E98355C1DB628BC0027E0BD /* BViewController.m */,
+			);
+			name = ViewController;
+			path = GofShakeAndEmail/ViewController;
+			sourceTree = "<group>";
+		};
+		1ECC21161DB5011E00B3B30F /* GofShakeAndEmail */ = {
+			isa = PBXGroup;
+			children = (
+				1ECC21171DB5013500B3B30F /* UIViewController+GofShakeAndEmail.h */,
+				1ECC21181DB5013500B3B30F /* UIViewController+GofShakeAndEmail.m */,
+			);
+			name = GofShakeAndEmail;
+			path = GofShakeAndEmail/GofShakeAndEmail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ECC20D61DB4FF4000B3B30F /* GofShakeAndEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ECC20F91DB4FF4000B3B30F /* Build configuration list for PBXNativeTarget "GofShakeAndEmail" */;
+			buildPhases = (
+				1ECC20D31DB4FF4000B3B30F /* Sources */,
+				1ECC20D41DB4FF4000B3B30F /* Frameworks */,
+				1ECC20D51DB4FF4000B3B30F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GofShakeAndEmail;
+			productName = GofShakeAndEmail;
+			productReference = 1ECC20D71DB4FF4000B3B30F /* GofShakeAndEmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ECC20EF1DB4FF4000B3B30F /* GofShakeAndEmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ECC20FC1DB4FF4000B3B30F /* Build configuration list for PBXNativeTarget "GofShakeAndEmailTests" */;
+			buildPhases = (
+				1ECC20EC1DB4FF4000B3B30F /* Sources */,
+				1ECC20ED1DB4FF4000B3B30F /* Frameworks */,
+				1ECC20EE1DB4FF4000B3B30F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ECC20F21DB4FF4000B3B30F /* PBXTargetDependency */,
+			);
+			name = GofShakeAndEmailTests;
+			productName = GofShakeAndEmailTests;
+			productReference = 1ECC20F01DB4FF4000B3B30F /* GofShakeAndEmailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ECC20CF1DB4FF4000B3B30F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = GofLee;
+				TargetAttributes = {
+					1ECC20D61DB4FF4000B3B30F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5CKSJSE23P;
+						ProvisioningStyle = Automatic;
+					};
+					1ECC20EF1DB4FF4000B3B30F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1ECC20D61DB4FF4000B3B30F;
+					};
+				};
+			};
+			buildConfigurationList = 1ECC20D21DB4FF4000B3B30F /* Build configuration list for PBXProject "GofShakeAndEmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ECC20CE1DB4FF4000B3B30F;
+			productRefGroup = 1ECC20D81DB4FF4000B3B30F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ECC20D61DB4FF4000B3B30F /* GofShakeAndEmail */,
+				1ECC20EF1DB4FF4000B3B30F /* GofShakeAndEmailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ECC20D51DB4FF4000B3B30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ECC210E1DB5002300B3B30F /* Assets.xcassets in Resources */,
+				1ECC21151DB500CC00B3B30F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ECC20EE1DB4FF4000B3B30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ECC20D31DB4FF4000B3B30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E98355D1DB628BC0027E0BD /* BViewController.m in Sources */,
+				1ECC210D1DB5002300B3B30F /* GofViewCreateFactory.m in Sources */,
+				1ECC21111DB5004700B3B30F /* AViewController.m in Sources */,
+				1ECC210B1DB5002300B3B30F /* AppDelegate.m in Sources */,
+				1ECC21191DB5013500B3B30F /* UIViewController+GofShakeAndEmail.m in Sources */,
+				1ECC210C1DB5002300B3B30F /* GofViewController.m in Sources */,
+				1ECC20DC1DB4FF4000B3B30F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ECC20EC1DB4FF4000B3B30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ECC20F51DB4FF4000B3B30F /* GofShakeAndEmailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ECC20F21DB4FF4000B3B30F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ECC20D61DB4FF4000B3B30F /* GofShakeAndEmail */;
+			targetProxy = 1ECC20F11DB4FF4000B3B30F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1ECC20F71DB4FF4000B3B30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1ECC20F81DB4FF4000B3B30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ECC20FA1DB4FF4000B3B30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5CKSJSE23P;
+				INFOPLIST_FILE = GofShakeAndEmail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.GofShakeAndEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1ECC20FB1DB4FF4000B3B30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5CKSJSE23P;
+				INFOPLIST_FILE = GofShakeAndEmail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.GofShakeAndEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1ECC20FD1DB4FF4000B3B30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GofShakeAndEmailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.GofShakeAndEmailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GofShakeAndEmail.app/GofShakeAndEmail";
+			};
+			name = Debug;
+		};
+		1ECC20FE1DB4FF4000B3B30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GofShakeAndEmailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.GofShakeAndEmailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GofShakeAndEmail.app/GofShakeAndEmail";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ECC20D21DB4FF4000B3B30F /* Build configuration list for PBXProject "GofShakeAndEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECC20F71DB4FF4000B3B30F /* Debug */,
+				1ECC20F81DB4FF4000B3B30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ECC20F91DB4FF4000B3B30F /* Build configuration list for PBXNativeTarget "GofShakeAndEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECC20FA1DB4FF4000B3B30F /* Debug */,
+				1ECC20FB1DB4FF4000B3B30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ECC20FC1DB4FF4000B3B30F /* Build configuration list for PBXNativeTarget "GofShakeAndEmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECC20FD1DB4FF4000B3B30F /* Debug */,
+				1ECC20FE1DB4FF4000B3B30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ECC20CF1DB4FF4000B3B30F /* Project object */;
+}
