@@ -58,10 +58,6 @@
             [alert show];
         }
     }
-    else
-    {
-        
-    }
 }
 
 #pragma mark - 邮件发送
