@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        一个使用OC实现的摇一摇截图邮件反馈BUG的库.
                        DESC
-  s.homepage         = "https://github.com/wangzz/WZMarqueeView"
+  s.homepage         = "https://github.com/LeeGof/GofShakeAndEmail"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "LeeGof" => "ligfufida@gmail.com" }
   s.source           = { :git => "https://github.com/LeeGof/GofShakeAndEmail.git", :tag => s.version.to_s }
