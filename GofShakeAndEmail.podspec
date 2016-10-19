@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "GofShakeAndEmail"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "一个好玩的摇一摇截图邮件反馈BUG的库"
   s.description      = <<-DESC
                        一个使用OC实现的摇一摇截图邮件反馈BUG的库.
