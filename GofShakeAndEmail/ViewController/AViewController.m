@@ -9,6 +9,7 @@
 #import "AViewController.h"
 #import "BViewController.h"
 #import "GofViewCreateFactory.h"
+#import <WebKit/WebKit.h>
 
 @interface AViewController ()
 
